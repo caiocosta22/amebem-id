@@ -143,8 +143,8 @@ export default function ColorPalette() {
               </div>
 
               <div className="bg-[#076C36] p-6 rounded-lg opacity-50">
-                <p className="text-[#076C36] font-bold">Verde sobre verde</p>
-                <p className="text-sm text-[#076C36]/70">Falta de contraste</p>
+                <p className="text-[#043625] font-bold">Verde sobre verde</p>
+                <p className="text-sm text-[#043625]/70">Falta de contraste</p>
               </div>
             </div>
           </div>

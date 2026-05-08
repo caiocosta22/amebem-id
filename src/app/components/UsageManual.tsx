@@ -65,7 +65,7 @@ export default function UsageManual() {
             </div>
 
             <div className="bg-[#F7F7F7] rounded-2xl p-4 sm:p-6 brand-print-avoid-break">
-              <div className="bg-white rounded-xl p-6 sm:p-8 mb-4 flex items-center justify-center min-h-[160px] sm:min-h-[200px] relative">
+              <div className="bg-white rounded-xl p-6 sm:p-8 mb-4 flex items-center justify-center min-h-[200px] sm:min-h-[200px] relative">
                 <div className="absolute inset-0 border-4 border-[#95CC17] rounded-xl m-12" />
                 <Heart
                   className="w-20 h-20 text-[#076C36] transform rotate-45 mt-4"
