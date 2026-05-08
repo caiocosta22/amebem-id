@@ -1,0 +1,40 @@
+/**
+ * Exportação paginada: use “Salvar como PDF” na caixa de impressão do navegador.
+ * Cores de fundo e gradientes são preservados quando o usuário ativa gráficos de fundo.
+ */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+
+  html,
+  body {
+    height: auto !important;
+    overflow: visible !important;
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #root {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  .brand-print-page {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .brand-print-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .brand-print-avoid-break {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
