@@ -6,6 +6,7 @@ import {
   Share2,
   ShoppingBag,
 } from "lucide-react";
+import logoImg from "../../imports/LOGO_AMEBEM_OLD.png";
 
 export default function Applications() {
   return (
@@ -46,9 +47,9 @@ export default function Applications() {
               </div>
 
               <div className="text-sm space-y-1">
-                <p className="font-bold">Pe. João Silva</p>
+                <p className="font-bold">João Silva</p>
                 <p className="text-xs opacity-90">
-                  Coordenador
+                  Diretor
                 </p>
                 <p className="text-xs opacity-80 mt-2">
                   (85) 99999-9999
@@ -115,7 +116,7 @@ export default function Applications() {
                     João Silva
                   </p>
                   <p className="text-sm text-gray-600">
-                    Coordenador
+                    Diretor
                   </p>
                   <p className="text-sm font-bold text-[#076C36] mt-1">
                     ONG AMEBEM
@@ -175,7 +176,7 @@ export default function Applications() {
           </div>
 
           {/* Camiseta */}
-          <div className="bg-[#F7F7F7] rounded-2xl p-5 sm:p-8 brand-print-avoid-break">
+          <div className="bg-white rounded-2xl border border-gray-200 p-5 sm:p-8 shadow-sm brand-print-avoid-break">
             <div className="flex items-center gap-3 mb-6">
               <ShoppingBag className="w-6 h-6 text-[#076C36]" />
               <h3 className="text-xl font-bold text-[#076C36]">
@@ -184,19 +185,21 @@ export default function Applications() {
             </div>
 
             <div className="relative">
-              <div className="w-full aspect-square bg-[#076C36] rounded-2xl flex items-center justify-center">
-                <div className="text-center px-2">
-                  <Heart
-                    className="w-24 h-24 sm:w-32 sm:h-32 text-white mx-auto mb-4 transform rotate-45"
-                    fill="white"
+              <div className="w-full aspect-square bg-white rounded-2xl border border-gray-200 flex flex-col items-center justify-center p-6">
+                <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-xl flex items-center justify-center bg-white p-2 mb-4">
+                  <img
+                    src={logoImg}
+                    alt="Logo AMEBEM"
+                    className="w-full h-full object-contain"
                   />
-                  <p className="text-white font-bold text-xl sm:text-2xl">
-                    AMEBEM
-                  </p>
-                  <p className="text-[#95CC17] text-sm mt-2">
-                    Transformando vidas
-                  </p>
                 </div>
+                <p className="text-[#076C36] font-bold text-xl sm:text-2xl text-center">
+                  AMEBEM
+                </p>
+                <p className="text-[#076C36]/90 text-xs sm:text-sm mt-3 text-center max-w-sm leading-relaxed">
+                  Transformando vidas através da<br></br> solidariedade cristã em
+                  Fortaleza
+                </p>
               </div>
             </div>
           </div>

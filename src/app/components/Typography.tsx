@@ -84,22 +84,22 @@ export default function Typography() {
                 <p className="text-xs sm:text-sm uppercase tracking-wider text-[#076C36] mb-2">
                   Fonte Secundária
                 </p>
-                <h3 className="text-3xl sm:text-4xl text-[#076C36]" style={{ fontFamily: 'Georgia, serif' }}>
-                  Georgia
+                <h3 className="text-3xl sm:text-4xl text-[#076C36]" style={{ fontFamily: 'Cambria, Georgia, serif' }}>
+                  Cambria
                 </h3>
               </div>
               <p className="text-xs sm:text-sm text-gray-600 max-w-md">Textos longos e citações</p>
             </div>
 
             <div className="space-y-5 sm:space-y-6">
-              <div style={{ fontFamily: 'Georgia, serif' }}>
+              <div style={{ fontFamily: 'Cambria, Georgia, serif' }}>
                 <p className="text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed">
                   "Tudo o que fizestes a um destes meus irmãos mais pequeninos, a mim o fizestes"
                 </p>
                 <p className="text-xs sm:text-sm text-gray-500 mt-2">Regular · 24px · Citações especiais</p>
               </div>
 
-              <div style={{ fontFamily: 'Georgia, serif' }}>
+              <div style={{ fontFamily: 'Cambria, Georgia, serif' }}>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                   Nossa missão é acolher e amparar pessoas em situação de vulnerabilidade social
                   nas ruas de Fortaleza, oferecendo dignidade através dos valores cristãos.

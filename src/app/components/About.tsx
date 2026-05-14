@@ -32,10 +32,11 @@ export default function About() {
             </div>
             <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Visão</h3>
             <p className="text-base sm:text-lg leading-relaxed">
-              Ser referência em acolhimento social em Fortaleza,
-              expandindo nossa rede de doadores e voluntários
-              para alcançar cada vez mais pessoas que necessitam
-              de amor, cuidado e uma nova oportunidade de vida.
+              Ser referência em acolhimento social em Fortaleza, expandindo nossa
+              rede de doadores e voluntários para alcançar cada vez mais pessoas
+              que necessitam de amor, cuidado e uma nova oportunidade de vida.
+              Acreditamos que o alimento espiritual é o fundamento de toda
+              transformação.
             </p>
           </div>
         </div>

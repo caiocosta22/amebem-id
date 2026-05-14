@@ -26,7 +26,7 @@ export default function Cover() {
         <p className="text-2xl sm:text-3xl mb-3 sm:mb-4 font-light">AMEBEM</p>
 
         <p className="text-base sm:text-lg md:text-xl opacity-90 max-w-2xl mx-auto leading-relaxed">
-          Transformando vidas através da solidariedade cristã em Fortaleza
+          Levamos Deus, amor e esperança a quem mais precisa
         </p>
 
         <div className="mt-10 sm:mt-16 text-xs sm:text-sm opacity-70">
